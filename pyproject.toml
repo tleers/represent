@@ -1,0 +1,19 @@
+[project]
+name = "represent"
+version = "0.1.0"
+description = "Build enterprise-grade alternative representations of your data with LLMs, prefect, & OpenMetaData"
+authors = [
+    {name = "tleers", email = "mail@timleers.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
